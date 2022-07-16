@@ -1,0 +1,180 @@
+
+
+#header {
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , 
+                        url("pelicula.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+  }
+
+
+.contenedor{
+    background-color:rgba(122, 119, 119, 0.849) ;
+}
+
+.content-header{
+    color:#fff;
+    background-color:rgba(122, 119, 119, 0.849) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.content-header h1 {
+    font-size: 7rem ;
+}
+.content-header p{
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+
+.content-header a{
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #fff;
+    background: rgb(116, 116, 238);
+    text-decoration: none;
+}
+
+.content-header a:hover{
+    background:  #6868f1;
+    border: 2px solid #fff;
+    padding: 13px 18px;
+}
+
+.imagenes{
+    width: 400px;
+    height: 300px;
+    background: #208d5a93;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-2.5%);
+    top: 500px;
+    margin-bottom: 0PX;
+}
+
+
+/*css peliculas*/
+
+.contenedor-cabecera-vehiculo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  
+  .contenedor-fila-vehiculo {
+    margin-bottom: 3.8rem;
+  }
+  
+  .cabecera-vehiculo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(156, 156, 156, 0.6);
+    box-shadow: 0px 0px 37px 15px rgb(0 0 0 / 10%);
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border-radius: 15px; */
+    background-color: #f6f6f7;
+  }
+  
+  .titulo-vehiculo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo-vehiculo h2 {
+    display: flex;
+    margin: 0 0 0 0;
+    color: #000000;
+    /* color: #000000; */
+    font-weight: 600;
+    /* text-shadow: 0 0 3px #000000; */
+    /* text-shadow: 0 0 3px #006AEA; */
+  }
+  
+  .texto-vehiculo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto-vehiculo p {
+    display: flex;
+    margin: 0 0 0 0;
+    color: #161718;
+    font-weight: 400;
+  }
+  
+  .fila-vehiculo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  
+  .card-vehiculo {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 0px 17px 5px rgb(0 0 0 / 10%);
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f6f6f7;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card-vehiculo:hover{
+    transform: scale(1.05);
+  }
+  
+  
+  .card-vehiculo:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .card-vehiculo > .card-vehiculo-inner {
+    padding: 10px;
+  }
+  
+  .card-vehiculo .card-vehiculo-inner .header h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .card-vehiculo .header {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .card-vehiculo img {
+    width: 100%;
+  }
+  
+  .contenedor-vehiculo {
+    max-width: 88.4989378333em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.617924em;
+    box-sizing: content-box;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
